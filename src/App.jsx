@@ -8,7 +8,7 @@ function App() {
 
     const calcularIMC = () => {
       const alturaEmMetros = altura / 100; 
-      const resultadoImc = peso / (alturaEmMetros * alturaMetros);
+      const resultadoImc = peso / (alturaEmMetros * alturaEmMetros);
       setIMC(resultadoImc.toFixed(2));
     };
 
